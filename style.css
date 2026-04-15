@@ -184,6 +184,21 @@ img{
     filter: brightness(0) saturate(100%) invert(17%) sepia(99%) saturate(7484%) hue-rotate(1deg) brightness(98%) contrast(118%);
 } 
 
+.weightSymbol.active{
+    border: 3px solid red;
+    background-color: #eba4a4;
+    transform: scale(1.06);
+}
+
+.weightSymbol.active .typeText{
+    color: red;
+}
+
+.weightSymbol.active img{
+    filter: brightness(0) saturate(100%) invert(17%) sepia(99%) saturate(7484%) hue-rotate(1deg) brightness(98%) contrast(118%);
+}
+
+
 /* Length */
 
 .lengthSymbol:hover{
@@ -196,6 +211,20 @@ img{
 }
 
 .lengthSymbol:hover img{
+    filter: brightness(0) saturate(100%) invert(55%) sepia(89%) saturate(472%) hue-rotate(118deg) brightness(94%) contrast(101%);
+}
+
+.lengthSymbol.active{
+    border: 3px solid #00b894;
+    background-color: #a5f8db;
+    transform: scale(1.06);
+}
+
+.lengthSymbol.active .typeText{
+    color: #00b894;
+}
+
+.lengthSymbol.active img{
     filter: brightness(0) saturate(100%) invert(55%) sepia(89%) saturate(472%) hue-rotate(118deg) brightness(94%) contrast(101%);
 }
 
@@ -214,6 +243,20 @@ img{
     filter: brightness(0) saturate(100%) invert(63%) sepia(84%) saturate(1614%) hue-rotate(2deg) brightness(103%) contrast(103%);
 }
 
+.temperatureSymbol.active{
+    border: 3px solid #ff8c00;
+    background-color: #fddda9;
+    transform: scale(1.06);
+}
+
+.temperatureSymbol.active .typeText{
+    color: #ff8c00;
+}
+
+.temperatureSymbol.active img{
+    filter: brightness(0) saturate(100%) invert(63%) sepia(84%) saturate(1614%) hue-rotate(2deg) brightness(103%) contrast(103%);
+}
+
 
 /* VOLUME */
 
@@ -227,6 +270,20 @@ img{
 }
 
 .volumeSymbol:hover img{
+    filter: brightness(0) saturate(100%) invert(31%) sepia(51%) saturate(1274%) hue-rotate(252deg) brightness(93%) contrast(92%);
+}
+
+.volumeSymbol.active{
+    border: 3px solid #8e44ad;
+    background-color: #d5b6f5;
+    transform: scale(1.06);
+}
+
+.volumeSymbol.active .typeText{
+    color: #8e44ad;
+}
+
+.volumeSymbol.active img{
     filter: brightness(0) saturate(100%) invert(31%) sepia(51%) saturate(1274%) hue-rotate(252deg) brightness(93%) contrast(92%);
 }
 
@@ -257,6 +314,17 @@ img{
 }
 
 .opType:hover img{
+    filter: brightness(0) invert(1);
+}
+
+.opType.active{
+    background: #446DFF;
+    color: white;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.opType.active img{
     filter: brightness(0) invert(1);
 }
 
