@@ -27,8 +27,8 @@ export const UNITS = {
   ],
 
   VOLUME: [
-    { value: "LITRE",      label: "Litre (L)" },
-    { value: "MILLILITRE", label: "Millilitre (mL)" },
+    { value: "LITER",      label: "Litre (L)" },
+    { value: "MILLILITER", label: "Millilitre (mL)" },
     { value: "GALLON",     label: "Gallon (gal)" }
   ],
 
