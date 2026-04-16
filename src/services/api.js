@@ -14,10 +14,7 @@
    - GET  /api/quantity/getHistory → returns List<QuantityMeasurementEntity>
    ============================================================ */
 
-// ---- Backend Server URL ----
-// Using empty string so Vite proxy forwards /auth and /api to localhost:8080
-// This avoids CORS issues during development
-const API_BASE = "";
+const API_BASE = "https://quantitymeasurementapp-nml2.onrender.com";
 
 /* ============================================================
    TOKEN MANAGEMENT (JWT Authentication)
